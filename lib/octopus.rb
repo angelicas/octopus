@@ -166,7 +166,7 @@ require 'octopus/model'
 require 'octopus/migration'
 require 'octopus/association'
 require 'octopus/collection_association'
-require 'octopus/has_and_belongs_to_many_association' unless Octopus.rails41?
+# require 'octopus/has_and_belongs_to_many_association' unless Octopus.rails41?
 require 'octopus/association_shard_tracking'
 require 'octopus/persistence'
 require 'octopus/log_subscriber'
